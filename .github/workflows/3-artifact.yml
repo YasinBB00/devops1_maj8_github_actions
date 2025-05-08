@@ -10,7 +10,7 @@ jobs:
         run: echo "Detta är logginnehållet. Testar artefakter i GitHub Actions." > log.txt
       
       - name: Laddar upp loggfilen som artifact
-        uses: actions/upload-artifact@v2 
+        uses: actions/upload-artifact@v4
         with:
           name: loggfil
           path: log.txt
