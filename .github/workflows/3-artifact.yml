@@ -1,5 +1,4 @@
 name: Delövning 3 - Artifacts
-
 on:
   workflow_dispatch:
 
