@@ -16,7 +16,7 @@ jobs:
 
   print-message:
     runs-on: ubuntu-latest
-    needs: list-files
+    # needs: list-files
     steps:
       - name: Meddelande
         run: echo "Detta körs efter list-files"
